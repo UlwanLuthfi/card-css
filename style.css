@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 50px;
+  background-color: #bacad9;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.card {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.profile {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-image img {
+  width: 100%;
+  max-width: 60px;
+  min-width: 40px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin: 0 4px;
+}
+
+.profile-details span {
+  padding: 3px 0;
+}
+
+.profile-details span:first-child {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.profile-details span:last-child {
+  font-size: 1rem;
+  color: #78858f;
+}
+
+.card-content {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 16 / 9;
+}
+
+.card-image-45 img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 4 / 3;
+  background-position: center;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0 25px;
+}
+
+.card-description {
+  font-weight: 1rem;
+  color: #78858f;
+  padding: 0 25px;
+  padding-bottom: 25px;
+}
+
+.card-date {
+  font-size: 1rem;
+  color: #78858f;
+}
+
+.card-date {
+  font-weight: 1rem;
+  color: #78858f;
+  padding: 0 25px;
+}
+
+.card-text {
+  font-size: 1rem;
+  padding: 0 25px 25px;
+}
+
+.card-content-sahur {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-tag {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+}
+
+.card-tag span {
+  padding: 5px 10px;
+  background: #eb3349;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.75rem;
+}
